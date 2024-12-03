@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Gear | Checkout</title>
+
+    
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+        <a href="index.html">Tech Gear</a>
+    </div>
+    <div class="nav-btn">
+        <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="checkout.html">Checkout</a>
+    </div>
+</nav>
+<main class="main-checkout">
+    <h1 class="p-head">Checkout</h1>
+    <div class="checkout-container">
+        <div class="check-left">
+            <form class="check-form">
+                <h3>Shipping Information</h3>
+                <div class="check-mark">
+                    <div>
+                        <input type="radio">
+                        <label>Delivery</label>
+                    </div>
+                    <div>
+                        <input type="radio">
+                        <label>Pickup</label>
+                    </div>
+                </div>
+
+                <div class="check-input">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter name">
+                </div>
+
+                <div class="check-input">
+                    <label for="mail">Email Address</label>
+                    <input type="email" id="mail" name="mail" placeholder="Enter email address">
+                </div>
+
+                <div class="check-input">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter phone number">
+                </div>
+
+                <div class="check-input">
+                    <label for="country">Country</label>
+                    <input type="tel" id="country" name="country" placeholder="Enter country">
+                </div>
+
+                <div class="check-input-flex">
+                    <div class="check-input">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" placeholder="Enter city">
+                    </div>
+                    <div class="check-input">
+                        <label for="state">State</label>
+                        <input type="text" id="state" name="state" placeholder="Enter state">
+                    </div>
+                    <div class="check-input">
+                        <label for="zip">Zip Code</label>
+                        <input type="number" id="zip" name="zip" placeholder="Enter zip code">
+                    </div>
+                </div>
+
+                <br>
+                <div class="read">
+                    <input type="checkbox">
+                    <label>I have read and agreed to terms and conditions</label>
+                </div>
+            </form>
+        </div>
+        <div class="check-right">
+            <img src="images/card.webp" class="card" alt="card">
+            <div style="clear: both"></div>
+
+            <br>
+            <div class="check-input">
+                <label for="card">Card Number</label>
+                <input type="tel" id="card" name="card" placeholder="Enter card number">
+            </div>
+
+            <div class="check-input">
+                <label for="c-name">Card Holder's Name</label>
+                <input type="text" id="c-name" name="name" placeholder="Enter card holder name">
+            </div>
+
+            <div class="check-input-flex">
+                <div class="check-input">
+                    <label for="date">Expiration Date</label>
+                    <input type="text" id="date" name="date" placeholder="MM/YY">
+                </div>
+                <div class="check-input">
+                    <label for="cvc">CVC</label>
+                    <input type="number" id="cvc" name="cvc" placeholder="123">
+                </div>
+            </div>
+
+            <br>
+            <div>
+                <button class="button-pay" type="submit">Pay Now</button>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="footer-grid">
+        <div class="footer-div">
+            <h4>Products</h4>
+            <ul>
+                <li><a href="products.html">Computer</a></li>
+                <li><a href="products.html">Laptop</a></li>
+                <li><a href="products.html">iPhone</a></li>
+                <li><a href="products.html">iPad</a></li>
+                <li><a href="products.html">Video Games</a></li>
+            </ul>
+        </div>
+        <div class="footer-div">
+            <h4>Information</h4>
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Reviews</a></li>
+                <li><a href="">FAQs</a></li>
+            </ul>
+        </div>
+        <div class="footer-div">
+            <h4>Policy</h4>
+            <ul>
+                <li><a href="">Payment Information</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
